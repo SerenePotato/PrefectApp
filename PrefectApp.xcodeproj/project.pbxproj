@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D6F16D1470AC02687C80351 /* Pods_PrefectAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE35E3501387AC9B2D25BBB /* Pods_PrefectAppTests.framework */; };
+		397414DC6990E2E8011789EB /* Pods_PrefectApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92275BB7E109D9DA940365FB /* Pods_PrefectApp.framework */; };
+		C468D0F61DB0D76C00F06369 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468D0F51DB0D76C00F06369 /* loginView.swift */; };
 		C49FC6071DB0CEC600C0C2F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FC6061DB0CEC600C0C2F1 /* AppDelegate.swift */; };
-		C49FC6091DB0CEC600C0C2F1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FC6081DB0CEC600C0C2F1 /* FirstViewController.swift */; };
+		C49FC6091DB0CEC600C0C2F1 /* bulletin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FC6081DB0CEC600C0C2F1 /* bulletin.swift */; };
 		C49FC60B1DB0CEC600C0C2F1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FC60A1DB0CEC600C0C2F1 /* SecondViewController.swift */; };
 		C49FC60E1DB0CEC600C0C2F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49FC60C1DB0CEC600C0C2F1 /* Main.storyboard */; };
 		C49FC6101DB0CEC600C0C2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49FC60F1DB0CEC600C0C2F1 /* Assets.xcassets */; };
 		C49FC6131DB0CEC600C0C2F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49FC6111DB0CEC600C0C2F1 /* LaunchScreen.storyboard */; };
 		C49FC61E1DB0CEC600C0C2F1 /* PrefectAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FC61D1DB0CEC600C0C2F1 /* PrefectAppTests.swift */; };
 		C49FC6291DB0CEC600C0C2F1 /* PrefectAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FC6281DB0CEC600C0C2F1 /* PrefectAppUITests.swift */; };
+		C49FC6371DB0CF2900C0C2F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C49FC6361DB0CF2900C0C2F1 /* GoogleService-Info.plist */; };
+		C49FC6381DB0CF2900C0C2F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C49FC6361DB0CF2900C0C2F1 /* GoogleService-Info.plist */; };
+		C49FC6391DB0CF2900C0C2F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C49FC6361DB0CF2900C0C2F1 /* GoogleService-Info.plist */; };
+		DE1843DD5C08A19E43AB67C2 /* Pods_PrefectAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7F16C7C2D9DB0E532C51F4 /* Pods_PrefectAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06634F3CFEF1024E2C9BC62B /* Pods-PrefectAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrefectAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrefectAppUITests/Pods-PrefectAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FF500927600D28ADBBBB2EE /* Pods-PrefectAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrefectAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrefectAppTests/Pods-PrefectAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FE35E3501387AC9B2D25BBB /* Pods_PrefectAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrefectAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92275BB7E109D9DA940365FB /* Pods_PrefectApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrefectApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C468D0F51DB0D76C00F06369 /* loginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
 		C49FC6031DB0CEC600C0C2F1 /* PrefectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrefectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49FC6061DB0CEC600C0C2F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C49FC6081DB0CEC600C0C2F1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C49FC6081DB0CEC600C0C2F1 /* bulletin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bulletin.swift; sourceTree = "<group>"; };
 		C49FC60A1DB0CEC600C0C2F1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C49FC60D1DB0CEC600C0C2F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C49FC60F1DB0CEC600C0C2F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +61,12 @@
 		C49FC6241DB0CEC600C0C2F1 /* PrefectAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrefectAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49FC6281DB0CEC600C0C2F1 /* PrefectAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectAppUITests.swift; sourceTree = "<group>"; };
 		C49FC62A1DB0CEC600C0C2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49FC6361DB0CF2900C0C2F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CAF4DA94C4F8F97B805F9E38 /* Pods-PrefectApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrefectApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrefectApp/Pods-PrefectApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D73D10EA78683B804D437320 /* Pods-PrefectAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrefectAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrefectAppTests/Pods-PrefectAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED7F16C7C2D9DB0E532C51F4 /* Pods_PrefectAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrefectAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F346DDB3C1FC5D620F896B3F /* Pods-PrefectAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrefectAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrefectAppUITests/Pods-PrefectAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD7B0258686C04B85EB7C1A4 /* Pods-PrefectApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrefectApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrefectApp/Pods-PrefectApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397414DC6990E2E8011789EB /* Pods_PrefectApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D6F16D1470AC02687C80351 /* Pods_PrefectAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1843DD5C08A19E43AB67C2 /* Pods_PrefectAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7778D46969D7F6A23CD58565 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAF4DA94C4F8F97B805F9E38 /* Pods-PrefectApp.debug.xcconfig */,
+				FD7B0258686C04B85EB7C1A4 /* Pods-PrefectApp.release.xcconfig */,
+				5FF500927600D28ADBBBB2EE /* Pods-PrefectAppTests.debug.xcconfig */,
+				D73D10EA78683B804D437320 /* Pods-PrefectAppTests.release.xcconfig */,
+				06634F3CFEF1024E2C9BC62B /* Pods-PrefectAppUITests.debug.xcconfig */,
+				F346DDB3C1FC5D620F896B3F /* Pods-PrefectAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A546B709963EF488B3C5E5E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92275BB7E109D9DA940365FB /* Pods_PrefectApp.framework */,
+				7FE35E3501387AC9B2D25BBB /* Pods_PrefectAppTests.framework */,
+				ED7F16C7C2D9DB0E532C51F4 /* Pods_PrefectAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C49FC5FA1DB0CEC500C0C2F1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				C49FC61C1DB0CEC600C0C2F1 /* PrefectAppTests */,
 				C49FC6271DB0CEC600C0C2F1 /* PrefectAppUITests */,
 				C49FC6041DB0CEC600C0C2F1 /* Products */,
+				7778D46969D7F6A23CD58565 /* Pods */,
+				A546B709963EF488B3C5E5E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +146,13 @@
 			isa = PBXGroup;
 			children = (
 				C49FC6061DB0CEC600C0C2F1 /* AppDelegate.swift */,
-				C49FC6081DB0CEC600C0C2F1 /* FirstViewController.swift */,
+				C468D0F51DB0D76C00F06369 /* loginView.swift */,
+				C49FC6081DB0CEC600C0C2F1 /* bulletin.swift */,
 				C49FC60A1DB0CEC600C0C2F1 /* SecondViewController.swift */,
 				C49FC60C1DB0CEC600C0C2F1 /* Main.storyboard */,
 				C49FC60F1DB0CEC600C0C2F1 /* Assets.xcassets */,
 				C49FC6111DB0CEC600C0C2F1 /* LaunchScreen.storyboard */,
+				C49FC6361DB0CF2900C0C2F1 /* GoogleService-Info.plist */,
 				C49FC6141DB0CEC600C0C2F1 /* Info.plist */,
 			);
 			path = PrefectApp;
@@ -135,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C49FC62D1DB0CEC600C0C2F1 /* Build configuration list for PBXNativeTarget "PrefectApp" */;
 			buildPhases = (
+				882552E0C06DC38E7DD9C17E /* [CP] Check Pods Manifest.lock */,
 				C49FC5FF1DB0CEC500C0C2F1 /* Sources */,
 				C49FC6001DB0CEC500C0C2F1 /* Frameworks */,
 				C49FC6011DB0CEC500C0C2F1 /* Resources */,
+				AB527AC5D31B0C66E74A52DC /* [CP] Embed Pods Frameworks */,
+				4A93332876C062EC1D7F7362 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C49FC6301DB0CEC600C0C2F1 /* Build configuration list for PBXNativeTarget "PrefectAppTests" */;
 			buildPhases = (
+				93B1A8F63B6AD4047181E89B /* [CP] Check Pods Manifest.lock */,
 				C49FC6151DB0CEC600C0C2F1 /* Sources */,
 				C49FC6161DB0CEC600C0C2F1 /* Frameworks */,
 				C49FC6171DB0CEC600C0C2F1 /* Resources */,
+				90D547E0CDBEA7C9D0DEAFAE /* [CP] Embed Pods Frameworks */,
+				1397873B2192C8D979D4D0E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C49FC6331DB0CEC600C0C2F1 /* Build configuration list for PBXNativeTarget "PrefectAppUITests" */;
 			buildPhases = (
+				CF4369DDDDB64A019E6BD25E /* [CP] Check Pods Manifest.lock */,
 				C49FC6201DB0CEC600C0C2F1 /* Sources */,
 				C49FC6211DB0CEC600C0C2F1 /* Frameworks */,
 				C49FC6221DB0CEC600C0C2F1 /* Resources */,
+				ACAB51FEDCE37BB540C32235 /* [CP] Embed Pods Frameworks */,
+				41D6AF19FECA9867763F3859 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +295,7 @@
 				C49FC6131DB0CEC600C0C2F1 /* LaunchScreen.storyboard in Resources */,
 				C49FC6101DB0CEC600C0C2F1 /* Assets.xcassets in Resources */,
 				C49FC60E1DB0CEC600C0C2F1 /* Main.storyboard in Resources */,
+				C49FC6371DB0CF2900C0C2F1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49FC6381DB0CF2900C0C2F1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +311,149 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49FC6391DB0CF2900C0C2F1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1397873B2192C8D979D4D0E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrefectAppTests/Pods-PrefectAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41D6AF19FECA9867763F3859 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrefectAppUITests/Pods-PrefectAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A93332876C062EC1D7F7362 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrefectApp/Pods-PrefectApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		882552E0C06DC38E7DD9C17E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90D547E0CDBEA7C9D0DEAFAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrefectAppTests/Pods-PrefectAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B1A8F63B6AD4047181E89B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB527AC5D31B0C66E74A52DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrefectApp/Pods-PrefectApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACAB51FEDCE37BB540C32235 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrefectAppUITests/Pods-PrefectAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4369DDDDB64A019E6BD25E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C49FC5FF1DB0CEC500C0C2F1 /* Sources */ = {
@@ -264,7 +462,8 @@
 			files = (
 				C49FC60B1DB0CEC600C0C2F1 /* SecondViewController.swift in Sources */,
 				C49FC6071DB0CEC600C0C2F1 /* AppDelegate.swift in Sources */,
-				C49FC6091DB0CEC600C0C2F1 /* FirstViewController.swift in Sources */,
+				C468D0F61DB0D76C00F06369 /* loginView.swift in Sources */,
+				C49FC6091DB0CEC600C0C2F1 /* bulletin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +613,9 @@
 		};
 		C49FC62E1DB0CEC600C0C2F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF4DA94C4F8F97B805F9E38 /* Pods-PrefectApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PrefectApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,7 +627,9 @@
 		};
 		C49FC62F1DB0CEC600C0C2F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7B0258686C04B85EB7C1A4 /* Pods-PrefectApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PrefectApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -438,8 +641,9 @@
 		};
 		C49FC6311DB0CEC600C0C2F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF500927600D28ADBBBB2EE /* Pods-PrefectAppTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PrefectAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -452,8 +656,9 @@
 		};
 		C49FC6321DB0CEC600C0C2F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73D10EA78683B804D437320 /* Pods-PrefectAppTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PrefectAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -466,8 +671,9 @@
 		};
 		C49FC6341DB0CEC600C0C2F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06634F3CFEF1024E2C9BC62B /* Pods-PrefectAppUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = PrefectAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PrefectTeam.PrefectAppUITests;
@@ -479,8 +685,9 @@
 		};
 		C49FC6351DB0CEC600C0C2F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F346DDB3C1FC5D620F896B3F /* Pods-PrefectAppUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = PrefectAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PrefectTeam.PrefectAppUITests;
@@ -509,6 +716,7 @@
 				C49FC62F1DB0CEC600C0C2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C49FC6301DB0CEC600C0C2F1 /* Build configuration list for PBXNativeTarget "PrefectAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +725,7 @@
 				C49FC6321DB0CEC600C0C2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C49FC6331DB0CEC600C0C2F1 /* Build configuration list for PBXNativeTarget "PrefectAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +734,7 @@
 				C49FC6351DB0CEC600C0C2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
